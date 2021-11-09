@@ -6,5 +6,9 @@ namespace Polymorphism
 {
     public class Circle : Drawing 
     {
+        public override void Area()
+        {
+
+        }
     }
 }

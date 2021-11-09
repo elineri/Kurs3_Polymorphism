@@ -6,5 +6,9 @@ namespace Polymorphism
 {
     public class Rectangle : Drawing
     {
+        public override void Area()
+        {
+
+        }
     }
 }

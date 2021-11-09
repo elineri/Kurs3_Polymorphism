@@ -6,5 +6,9 @@ namespace Polymorphism
 {
     public class Square : Drawing
     {
+        public override void Area()
+        {
+
+        }
     }
 }

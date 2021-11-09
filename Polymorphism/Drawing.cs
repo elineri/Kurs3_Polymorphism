@@ -6,5 +6,9 @@ namespace Polymorphism
 {
     public class Drawing
     {
+        public virtual void Area()
+        {
+
+        }
     }
 }
