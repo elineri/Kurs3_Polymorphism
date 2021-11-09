@@ -6,9 +6,19 @@ namespace Polymorphism
 {
     public class Square : Drawing
     {
-        public override void Area()
-        {
+        public double _width { get; set; }
+        public double _height { get; set; }
 
+        public Square(double Width, double Height)
+        {
+            this._width = Width;
+            this._height = Height;
+        }
+
+        public override double Area()
+        {
+            double area = _width * _height;
+            return area;
         }
     }
 }
