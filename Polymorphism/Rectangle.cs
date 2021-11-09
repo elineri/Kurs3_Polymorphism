@@ -6,18 +6,21 @@ namespace Polymorphism
 {
     public class Rectangle : Drawing
     {
-        public double _width { get; set; }
-        public double _height { get; set; }
+        public double Width { get; set; }
+        public double Height { get; set; }
 
-        public Rectangle(double Width, double Height)
+        public Rectangle()
         {
-            this._width = Width;
-            this._height = Height;
+            Width = 4;
+            Height = 5;
         }
 
         public override double Area()
         {
-            double area = _width * _height;
+            double area = Width * Height;
+
+            Console.WriteLine("Rektangelns area är :" + area);
+
             return area;
         }
     }

@@ -6,17 +6,21 @@ namespace Polymorphism
 {
     public class Circle : Drawing 
     {
-        public double _radius { get; set; }
-        public double _pi { get; set; }
+        public double Radius { get; set; }
+        public double Pi { get; set; }
 
-        public Circle(double Radius)
+        public Circle()
         {
-            this._radius = Radius;
+            Radius = 5.67;
+            Pi = 3.14159265359;
         }
 
         public override double Area()
         {
-            double area = _pi * (_radius * _radius);
+            double area = Pi * (Radius * Radius);
+
+            Console.WriteLine("Cirkelns area är :" + area);
+
             return area;
         }
     }
