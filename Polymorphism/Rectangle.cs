@@ -11,7 +11,7 @@ namespace Polymorphism
 
         public Rectangle()
         {
-            Width = 3.8;
+            Width = 3.2;
             Height = 7.1;
         }
 
@@ -20,7 +20,6 @@ namespace Polymorphism
             double area = Width * Height;
 
             Console.Write("Rektangelns area: ");
-
             return area;
         }
     }

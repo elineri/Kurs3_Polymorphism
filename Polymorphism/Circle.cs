@@ -11,8 +11,8 @@ namespace Polymorphism
 
         public Circle()
         {
-            Radius = 5.6;
-            Pi = 3.14159265359;
+            Radius = 5;
+            Pi = 3.141;
         }
 
         public override double Area()
@@ -20,7 +20,6 @@ namespace Polymorphism
             double area = Pi * (Radius * Radius);
 
             Console.Write("Cirkelns area: ");
-
             return area;
         }
     }

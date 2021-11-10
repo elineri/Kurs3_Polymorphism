@@ -20,7 +20,6 @@ namespace Polymorphism
             double area = Width * Height;
 
             Console.Write("Fyrkantens area: ");
-
             return area;
         }
     }
