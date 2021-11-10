@@ -11,15 +11,15 @@ namespace Polymorphism
 
         public Rectangle()
         {
-            Width = 4;
-            Height = 5;
+            Width = 3.8;
+            Height = 7.1;
         }
 
         public override double Area()
         {
             double area = Width * Height;
 
-            Console.WriteLine("Rektangelns area är :" + area);
+            Console.Write("Rektangelns area: ");
 
             return area;
         }

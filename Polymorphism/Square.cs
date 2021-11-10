@@ -11,15 +11,15 @@ namespace Polymorphism
 
         public Square()
         {
-            Width = 4;
-            Height = 5;
+            Width = 4.3;
+            Height = 5.9;
         }
 
         public override double Area()
         {
             double area = Width * Height;
 
-            Console.WriteLine("Fyrkantens area är :" + area);
+            Console.Write("Fyrkantens area: ");
 
             return area;
         }

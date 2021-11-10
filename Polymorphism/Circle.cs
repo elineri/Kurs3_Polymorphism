@@ -11,7 +11,7 @@ namespace Polymorphism
 
         public Circle()
         {
-            Radius = 5.67;
+            Radius = 5.6;
             Pi = 3.14159265359;
         }
 
@@ -19,7 +19,7 @@ namespace Polymorphism
         {
             double area = Pi * (Radius * Radius);
 
-            Console.WriteLine("Cirkelns area är :" + area);
+            Console.Write("Cirkelns area: ");
 
             return area;
         }
