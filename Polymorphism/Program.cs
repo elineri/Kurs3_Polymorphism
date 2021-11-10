@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Elin Ericstam SUT21
+using System;
 
 namespace Polymorphism
 {
@@ -6,11 +7,11 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            Drawing s1 = new Square();
-            Console.WriteLine(s1.Area()); 
-
             Drawing c1 = new Circle();
             Console.WriteLine(c1.Area());
+
+            Drawing s1 = new Square();
+            Console.WriteLine(s1.Area()); 
 
             Drawing r1 = new Rectangle();
             Console.WriteLine(r1.Area());
